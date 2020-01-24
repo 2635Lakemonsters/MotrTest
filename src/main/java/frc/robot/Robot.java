@@ -147,8 +147,8 @@ public class Robot extends TimedRobot {
     //motor2.set(ControlMode.PercentOutput, -value);
     // motor1.set(ControlMode.Velocity, value * 500.0 * 4096 / 600);
     // motor2.set(ControlMode.Velocity, -value* 500.0 * 4096 / 600);
-    motor1.set(ControlMode.Velocity, 2000*2048/600);
-    motor2.set(ControlMode.Velocity, -2000*2048/600);
+    motor1.set(ControlMode.Velocity, 1500*2048/600);
+    motor2.set(ControlMode.Velocity, -3600*2048/600);
     System.out.println("value: " +  (int) (value * 100) + "    vel5: " + motor1.getSelectedSensorVelocity()* 600/2048 + "    vel6: " + motor2.getSelectedSensorVelocity() * 600/2048);
   }
 
